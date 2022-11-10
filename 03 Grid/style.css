@@ -1,0 +1,69 @@
+html {
+    box-sizing: border-box;
+    font-size: 175%;
+}
+  body {
+    margin: 0;
+    display: grid;
+    justify-content: center;  
+  }
+.calcolatrice-wrapper{
+   margin-top: 2rem;
+  width: 8rem;
+  display: grid;
+  grid-template-columns:repeat (4, 1fr);
+  grid-template-rows:repeat (6, 1fr);
+}
+.calcolatrice-display{
+   background-color: #5b5959;
+   color:white;
+   text-align:end;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   grid-column: span 4;
+}
+.calcolatrice-operazioni{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: #999;
+    grid-gap: 1px;
+   grid-column: span 4;
+}
+.operazione{
+  background-color: rgba(226, 220, 220, 0.992);
+   padding:10px;
+   border:0; 
+}
+.calcolatrice-numeri{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    border:10px;
+    grid-gap: 0px;
+    background-color:transparent;
+    grid-column: span 3; 
+}
+.numero{
+   
+    padding: 11px;
+    text-align: center;
+    border: .5px solid rgb(180, 180, 180);    
+}
+.zero{
+    border-bottom-left-radius: 5px;
+}
+.uguale{
+    background-color:transparent;
+    border:0;
+    padding: 0.5em 1.25em;
+    background-image: linear-gradient(to bottom, #edafa0, #fd9467);
+    grid-column: 4;
+    grid-row:3/span 4;
+    border-bottom-right-radius:5px;
+}
+    /*aiuto*/
+
+
+
+    
+
+

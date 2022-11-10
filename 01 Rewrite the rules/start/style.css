@@ -1,0 +1,23 @@
+body {
+    background-color: #011212;
+}
+
+:root{
+    --blue: rgb(106, 106, 255);
+    --pink: rgb(255, 161, 161);
+    --background: linear-gradient(var(--blue), var(--pink)) ;
+    --otherback: linear-gradient(rgb(41, 35, 35),rgb(245, 230, 230));
+    --width: 50px;
+    --height: 50px;
+    --border-radius:25px;
+}
+body {
+    background-color: var(--background);
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+    background-color: #ff8800;
+    border-radius: 50px;
+}

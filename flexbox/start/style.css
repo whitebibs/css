@@ -1,0 +1,57 @@
+body {
+
+    margin: 0%;
+    display: flex;
+
+}
+
+.logo {
+    border: 2px;
+    /*display: flexbox;*/
+    border: rgb(191, 155, 151) 1px solid;
+    text-align: center;
+
+}
+.links {
+    flex-grow: 1;
+  }
+  
+
+.wrapper {
+    display: flex;
+    flex-direction: column;  /* lo metto nel contenitore perchè cosi mi crea tutto in una colonna*/
+    width: 200px;
+    height: 100vh;
+    background-color: rgb(243, 194, 188);
+    box-sizing: border-box;
+    border-right: 1px solid rgb(191, 155, 151);
+}
+
+a {
+    color: #2b2b2b;
+    display: flex;
+    margin: 0px;
+    padding: 5px;
+    border: solid 1px rgb(191, 155, 151);
+}
+
+a:hover {
+    color: #2b2bb2;
+    transition: 0.3s;
+}
+
+.sidebar-footer {
+    display: flex;
+/*position: absolute;questo per metterlo di sotto nella pagina, ma se mettiamo .links flex-grow: 1 otteniamo lo stesso effetto.
+Diciamo che i link devono occupare tutta la parte della pagina quindi per forza l'avatar e il nome andranno giu nel footer
+se noi proviamo a cavare flex-grow:1 i links non occupano piu la parte principale
+e il nostro footer andrà attaccato ai link*/
+    bottom: 5px;
+    border-top: solid 1px rgb(191, 155, 151);
+    width: 200px;
+    align-items: center;
+}
+
+.avatar {
+    margin-top: 10px;
+}

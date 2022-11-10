@@ -1,0 +1,71 @@
+.responsive {
+    width: 100%;
+    height: auto;
+    max-width: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-wrapper {
+    border: 1px solid rgb(163, 154, 154);
+    border-radius: 10px;
+    max-width: 420px;
+    min-width: 200px;
+    word-break: break-all;
+    margin: 0 auto;
+}
+
+.card-imp {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+
+.card-imp div:not(.card-contenuto),
+.card-imp p {
+    padding: 0 15px;
+    margin: 0;
+}
+
+.card-imp p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card-imp h4 {
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+
+.card-contenuto {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-contenuto p {
+    border-top: 1px solid rgb(230, 223, 223);
+    margin-bottom: 0;
+    padding-top: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: left;
+}
+
+.card-link {
+    padding: 15px;
+}
+
+a {
+    margin-right: 20px;
+    color: rgb(8, 63, 63);
+}
+
+a:hover {
+    color: rgb(253, 22, 22);
+    transition: 3s;
+}
+
+.card-footer {
+    border-top: 2px solid rgb(207, 203, 203);
+}
